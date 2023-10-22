@@ -30,5 +30,18 @@
 </div>
 
 <div>
-  <img  src="https://github.com/cristophermra/cristophermra/dist/github-contribution-grid-snake.svg"/>
+  <picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github.com/cristophermra/cristophermra/blob/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github.com/cristophermra/cristophermra/blob/output/github-contribution-grid-snake.gif"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://github.com/cristophermra/cristophermra/blob/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 </div>
